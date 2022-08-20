@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main() {
+	char str1[20] = "안녕하세요 !!";
+	char str2[20] = "";
+
+	printf("str1 : %s\n", str1);
+	printf("str2 : %s\n\n", str2);
+
+	char* p1 = str1;
+	char* p2 = str2;
+
+	// str1의 i번째 글자를 str2의 i번째 칸에 복사하여 대입하면 문자열이 복사된다
+	while (*p2++ = *p1++) {
+		//int tmp = 0;
+	}
+
+	printf("str1 : %s\n", str1);
+	printf("str2 : %s\n\n", str2);
+
+	return 0;
+}
